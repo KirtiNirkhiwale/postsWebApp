@@ -102,7 +102,7 @@ const validate = values => {
   if (!values.title) {
     errors.title = 'Required'
   } 
-  if (!values.password) {
+  if (!values.content) {
       errors.content = 'Required'
   }
 
